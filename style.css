@@ -3,15 +3,23 @@
 body {
     background-color: rgba(176, 46, 46, 0.862);
     height: 100vh;
-    max-width: 400px;
+    max-width: 500px;
     display: block;
     margin: 0 auto;
     font-family: 'Poppins', sans-serif;
     color: beige;
 }
 
-.wrapper,
 header {
     display: flex;
     justify-content: center;
+}
+.list-menu{
+    padding: 15px
+}
+.logo{
+    margin-right: 100px;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 10px;
 }
